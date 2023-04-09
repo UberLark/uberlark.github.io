@@ -1,0 +1,84 @@
+
+
+
+#editionTable {
+
+	border: 1px solid #595959;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	
+}
+#editionTable th {
+	text-align: center;
+	vertical-align: middle;
+	color: #1F1F1F;
+	font: bold 1em arial;
+	background: #efefef;
+    background-image: linear-gradient(bottom, rgb(220,220,220) 0%, rgb(240,240,240) 51%);
+    background-image: -o-linear-gradient(bottom, rgb(220,220,220) 0%, rgb(240,240,240) 51%);
+    background-image: -moz-linear-gradient(bottom, rgb(220,220,220) 0%, rgb(240,240,240) 51%);
+    background-image: -webkit-linear-gradient(bottom, rgb(220,220,220) 0%, rgb(240,240,240) 51%);
+    background-image: -ms-linear-gradient(bottom, rgb(220,220,220) 0%, rgb(240,240,240) 51%);
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(220,220,220)),
+	color-stop(0.51, rgb(240,240,240)));
+  background-repeat: no-repeat;
+  padding: 3px 2px;  
+	height: 27px;
+	border-bottom: solid 2px #6F6F6F;
+}
+
+#editionTable td {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: left;
+	vertical-align: middle;
+	font: normal 0.9em verdana;
+	border-collapse: collapse;
+	border-left: 1px #30292B dashed;
+	border-bottom: 1px solid #595959;
+}
+
+#editionTable tbody td {
+    text-align: center;
+}
+#editionTable tbody td.left {
+    text-align: left;
+}
+#editionTable tr.activeLine {
+	background-color: #B3E6F7;
+}
+
+#editionTable tbody tr.wait {
+	background-color: #F4C6C6;
+    text-align: center;  
+}
+
+#editionTable tbody tr.ready {
+	 text-align: center;
+     background-color: #D7F9BD;   
+}
+
+#editionTable tbody tr.proceed {
+	background-color: #FBF7C6;
+    text-align: center;
+}
+#editionTable tbody td.zap {
+    background-color: #FFF000;
+    text-align: center;
+}
+#editionTable td.bolder td {
+	font-weight: bold;
+}
+#editionTable tbody tr.showno { 
+     background-color:         #DCDCDC; 
+}
+#editionTable tbody td.showno { 
+     background-color:         #DCDCDC; 
+}
